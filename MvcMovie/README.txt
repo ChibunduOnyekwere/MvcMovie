@@ -74,3 +74,19 @@ time to test site!
 holy smokes! db is returning a null value!!!
 1037
 time to retrace the issue
+1130
+fixed! corrected the null exception code!
+1131
+tested.... and it worked!
+
+2025-05-30
+1611
+opened Github repo: https://github.com/ChibunduOnyekwere/MvcMovie
+1720
+Deleted the old movies in Seeddata.cs
+1730
+created new data in seeddata.cs
+1731
+tested new inputs and the have populated db...perfect 
+1740
+pushed new updates to Git

@@ -37,7 +37,7 @@ namespace MvcMovie.Controllers
 
             if (!string.IsNullOrEmpty(searchString))
             {
-                movies = movies.Where(s => s.Title !string&& s.Title.Contains(searchString));
+                movies = movies.Where(s => s.Title != null && s.Title.Contains(searchString));
             }
 
 

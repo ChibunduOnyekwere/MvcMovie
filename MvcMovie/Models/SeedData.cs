@@ -22,33 +22,41 @@ public static class SeedData
             context.Movie.AddRange(
                 new Movie
                 {
-                    Title = "When Harry Met Sally",
-                    ReleaseDate = DateTime.Parse("1989-2-12"),
-                    Genre = "Romantic Comedy",
+                    Title = "Independence Day",
+                    ReleaseDate = DateTime.Parse("1996-7-3"),
+                    Genre = "Action",
                     Rating = "R",
                     Price = 7.99M
                 },
                 new Movie
                 {
-              Title = "Ghostbusters ",
-                    ReleaseDate = DateTime.Parse("1984-3-13"),
+                    Title = "Spiderman 3",
+                    ReleaseDate = DateTime.Parse("2007-5-4"),
+                    Genre = "Action",
+                    Rating = "R",
+                    Price = 7.99M
+                },
+                new Movie
+                {
+              Title = "Koto Aye ",
+                    ReleaseDate = DateTime.Parse("2003-3-1"),
                     Genre = "Comedy",
                     Rating = "R",
                     Price = 8.99M
                 },
                 new Movie
                 {
-                    Title = "Ghostbusters 2",
-                    ReleaseDate = DateTime.Parse("1986-2-23"),
-                    Genre = "Comedy",
+                    Title = "The Great Gatsby",
+                    ReleaseDate = DateTime.Parse("2013-5-10"),
+                    Genre = "Romance",
                     Rating = "R",
                     Price = 9.99M
                 },
                 new Movie
                 {
-                    Title = "Rio Bravo",
-                    ReleaseDate = DateTime.Parse("1959-4-15"),
-                    Genre = "Western",
+                    Title = "Rio",
+                    ReleaseDate = DateTime.Parse("2011-5-15"),
+                    Genre = "comedy",
                     Rating = "R",
                     Price = 3.99M
                 }
